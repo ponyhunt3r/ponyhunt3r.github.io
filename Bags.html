@@ -1,0 +1,21 @@
+
+
+    <div ng-hide="triesToLog" class="container-fluid">
+        <div  class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div ng-repeat="product in catItems" class="col-xs-6 col-md-4 ">
+                        <a href="#"><img class="img-thumbnail"
+                                         ng-src={{product.img}}></a>
+                        <a class="btn-buy" ng-click="addToCart(product)" href="#">Buy {{product.name}}</a>        <br>
+                        <!--<a class="btn-buy" ng-click="removeFromChart(product)" href="#">Remove {{product.name}}</a>    -->
+
+                        <br>
+                        <h5> € {{product.price}}</h5></div>
+
+
+                </div>
+            </div>
+        </div>
+
+</div>

@@ -1,0 +1,651 @@
+body, html {
+    /*background: url(http://www.fotoik.pl/zdjecia_2015/32722-20151118145425.jpg)
+    no-repeat; */
+    background-size: cover;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+ul li {
+    text-align: center;
+}
+.col-md-6{
+    text-align: center;
+}
+.col-xs-12{
+    text-align: center;
+}
+.row {
+    padding:10px 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+.ng-binding {
+    border-right: none;
+}
+
+
+.card {
+    float: none;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    border-top: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    background: lightgrey;
+    width: 90%;
+    margin-right: -170px;
+    height: 250px;
+    padding:  20px 20px 10px 10px;
+    margin-bottom: 5px;
+}
+
+#gsc-iw-id1 {
+    height: 30px;
+}
+#gs_tti50 {
+
+}
+
+
+
+.row .col-md-3 h5 {
+    margin-left: 15px;
+    color: teal;
+    font-weight: bold;
+    margin-bottom: 14px;
+
+}
+.col-md-4 input {
+     white-space: nowrap;
+     display: inline-block;
+     text-align: center;
+ }
+
+.col-md-4 input[type="text"] {
+    white-space: nowrap;
+    text-align: center;
+    text-align: center;
+    width: 300px;
+}
+.col-md-4 button {
+    display: block;
+    background-color: #46C9B6;
+    border-radius: 0px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+#opinion {
+    height: 100px;
+}
+.row .col-md-3 p {
+    margin-left: 15px;
+    font-weight: bolder;
+    color: #525152;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+.row .col-md-3 h4 {
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #003a3a;
+}
+section {
+    font-size: 9px;
+}
+
+.last
+{
+    border: none;
+}
+.first {
+    border-right: 1px solid black;
+}
+#f
+{
+    border-top: none;
+    height: 100px;
+    width: 20%;
+}
+.col-md-6 ul li a{
+    padding: 0;
+    border: none;
+}
+.col-md-6 {
+    margin-top: 30px;
+    /*float: right;*/
+
+}
+
+.col-md-6 ul li a:hover{
+    padding: 0;
+    border: none;
+}
+
+#second {
+    padding: 30px 130px;
+}
+
+label {
+    margin-top: 15px;
+    display: block;
+}
+select {
+    width: 15%;
+    display: block;
+}
+.container-fluid a {
+
+}
+.container {
+    /*min-height:100%;*/
+    padding-top: 10px;
+    position: relative;
+    margin-top: 30px;
+    border-top: 1px solid #d2d2d2;
+
+}
+
+.container p {
+    margin-top: 30px;
+}
+
+select {
+    border-radius: 0px;
+}
+
+.col-sm-6{
+    margin: 10px;
+    height: 40px;
+}
+.col-md-3 {
+    /*background-color: #fbfff0;*/
+    /*padding: 60px 10px 10px 10px;*/
+    display: inline-block;
+
+}
+.col-md-2 {
+    display: inline-block;
+}
+img{
+    width: 80%;
+}
+.container .row {
+    margin-bottom: 30px;
+}
+
+.footer
+{
+    margin-top: 30px;
+    left:0;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:50px;
+    background: #DACFD6;
+    border-top: 1px solid rgba(0,0,0,0.25);
+    /*padding: 10px 10px;*/
+
+}
+
+.footer p {
+    color: #888888;
+    margin-left: 20px;
+    margin-top: 17px;
+    font-size: 12px;
+    text-align: left;
+}
+
+#f {
+    width: 100%;
+}
+
+
+.container a {
+    color: #454745;
+}
+ol li {
+    display: inline-block;
+}
+
+a {
+    color: #454745;
+}
+.supporting {
+
+    text-align: right;
+    background: url("https://image.freepik.com/free-vector/black-and-white-city-skyline_23-2147504627.jpg");
+}
+
+.col-md-6 .container .btn {
+    border: 1px solid teal;
+    color: teal;
+
+}
+
+.buy {
+    background-color: #46C9B6;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    text-align: center ;
+}
+.buy a {
+    color: #fff;
+}
+h4 {
+    margin-top: 100px;
+    display: block;
+    text-align: left;
+}
+
+#searchFor {
+    display: inline-block;
+}
+
+#searchSymbol {
+    width: 30px;
+}
+#searchSymbol:hover {
+    cursor: pointer; cursor: hand;
+}
+
+/* This is the desktop version!
+
+
+**
+
+*
+
+**
+
+*/
+@media screen and (min-width: 1024px) {
+    ul li a {
+        margin-top: 40px;
+    }
+    .row a{
+        display: block;
+
+    }
+    .container-fluid a {
+
+        display: block;
+        margin-bottom: 10px;
+    }
+    .container
+    {
+        width: 100%;
+
+
+    }
+
+    h1 {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #fff;
+        margin-top: 250px;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 1.0);
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    h2 {
+
+        text-align: right;
+        margin-top: -20px;
+    }
+
+    ul {
+        list-style: none;
+        display: inline-block;
+        background-color: #fff;
+
+    }
+
+    ul li {
+        display: inline-block;
+        padding: 10px 10px;
+        text-align: center;
+
+    }
+
+    ul li a {
+        text-transform: uppercase;
+        color: #000;
+        border-right: solid 1px black;
+        padding: 10px 50px 10px 10px;
+        text-align: center;
+        text-decoration: none;
+
+    }
+
+    ul li a:hover {
+
+        color: #46C9B6;
+        text-decoration: none;
+        text-shadow: 0px 2px 2px #85f3ff;
+
+    }
+
+    .buy:hover {
+        background-color: #17ffa5;
+        text-decoration: none;
+        color: #000;
+    }
+    .nav {
+
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .navbar {
+        color: #cccccc;
+        background-color: #fff;
+        /*padding: 10px 10px;*/
+
+    }
+
+    .navbar .navbar-header .last {
+        border-left: 1px solid black;
+        margin-left: -14px;
+        margin-right: 40px;
+        padding: 0px 5px;
+    }
+
+    .basket {
+        width: 15%;
+        margin-right: -15px;
+    }
+
+    .search {
+        width: 15%;
+    }
+
+    .logo {
+        width: 10%;
+        margin-right: 40px;
+    }
+
+    .navbar-right {
+        color: #000;
+    }
+
+    .navbar-right a {
+        background-color: #fff
+    }
+
+    .navbar ul li a {
+        padding: 0px 0px 0px 0px;
+        background-color: inherit;
+        border: none;
+        margin-right: 5px;
+    }
+
+    .supporting {
+        text-align: right;
+        height: 300px;
+        background-color: #e3e3e3;
+    }
+
+    .pull-right {
+        text-align: right;
+        color: #cccccc;
+        margin-top: -40px;
+    }
+
+    .pull-right a {
+        color: #888888;
+    }
+
+    span {
+        color: #cccccc;
+    }
+
+    .nav {
+        margin-top: -10px;
+        position: fixed;
+        z-index: 9999;
+    }
+}
+/* This is the end of desktop version!
+
+
+**
+
+*
+
+**
+
+*/
+
+
+@media screen and (max-width: 1023px) {
+
+    body {
+        font-family: Helvetica;
+        font-size: 16px;
+        color: #333;
+    }
+    ul {
+        list-style: none;
+        color: #000;
+    }
+    ul li {
+        list-style:none;
+        display: inline-block;
+        color: black;
+    }
+
+    .navbar {
+        /*padding: 80px 40px 0px 0px;*/
+    }
+
+    .basket {
+        float: left;
+        width: 15%;
+        margin-right:-60px;
+    }
+    .navbar .navbar-header ul li {
+        display: inline-block;
+    }
+    .navbar .navbar-header ul li a{
+        display: inline-block;
+        color: #454745;
+        margin-right: -20px;
+    }
+
+    .logo {
+        width: 100%;
+        display: block;
+        text-align: right;
+        margin-right:-400px;
+
+    }
+
+    .pull-right {
+        text-align: left;
+        color: #cccccc;
+        margin-top: -40px;
+        width: 40%;
+
+    }
+
+    .pull-right a {
+        color: #888888;
+        text-align: left;
+        display: inline-block;
+
+    }
+    .sign {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .navbar .navbar-header ul li a {
+        color: #333;
+    }
+    .navbar .navbar-header ul li {
+
+        margin-top: 140px;
+
+    }
+
+    .nav ul li a {
+        margin-top: 10px;
+        color: #454745;
+        padding: 20px 20px 20px 20px;
+        display: inline-block;
+    }
+
+
+    ul {
+        list-style: none;
+        display: block;
+
+    }
+
+    .nav ul {
+        background-color: #dacfd6;
+    }
+
+    ul li {
+        display: inline-block;
+        padding: 0 0;
+        text-align: center;
+
+    }
+    input[type=checkbox] {
+        margin-left: -10px;
+        margin: 0 0 0 0;
+    }
+    #check {
+        margin-left: -40px;
+    }
+
+    ul li a {
+        text-transform: uppercase;
+        color: #000;
+        text-align: left;
+        text-decoration: none;
+
+    }
+    .supporting {
+        margin-bottom: 10px;
+        width: 85%
+    }
+    img {
+        width: 99%;
+    }
+    .img-thumbnail {
+
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        display: inline-block;
+
+    }
+    body, html {
+        background-color: #fff;
+    }
+
+    .navbar .navbar-header ul li a {
+        color: #333;
+    }
+    .navbar .navbar-header ul li {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .col-md-6 {
+        width: 100%;
+        /*display: inline;*/
+    }
+    .select {
+        /*-ms-box-sizing:content-box;*/
+        /*-moz-box-sizing:content-box;*/
+        /*-webkit-box-sizing:content-box;*/
+        /*box-sizing:content-box;*/
+    }
+    #second {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+    .instock {
+        white-space: nowrap;
+        display: inline-block;
+        margin-left: -80px;
+    }
+    .col-xs-12 .form-control {
+        width: 150px;
+        margin-left: -80px;
+    }
+
+    .buy {
+        margin-left: -80px;
+        background-color: #daaba7;
+        padding: 10px 60px 10px 60px;
+        margin-top: 40px;
+        text-align: center ;
+    }
+
+.pull-right a {
+text-align:center;
+    margin-left: -140px;
+    display: block;
+    font-size: 16px;
+}
+    .nav {
+        margin: 0 auto;
+    }
+    .nav ul li {
+
+        width: 100%;
+    }
+    .nav ul {
+        display: none;
+    }
+
+    .col-xs-12 h4{
+        /*width: 200px;*/
+        margin-bottom: 50px;
+        margin-left: -80px;
+    }
+    .row ul li {
+        margin-top: 20px;
+        margin-left: -30px;
+        padding: 0 10px 0 0;
+
+    }
+    .glyphicon .glyphicon-log-in a{
+        margin-top: 40px;
+        margin-bottom: -200px;
+    }
+}

@@ -1,0 +1,16 @@
+1. ANIA:
+Strona glowna:
+- naglowek bardzo fajny (wiecej miejsca tylko na pasek szukania bym dal)
+- logo moze byc duze ale lepiej tego unikac i logotyp umiesci w tle strony a w naglowku dac nazwe
+- menu NIGDY nie powinno byc na srodku strony :), to bardzo zla praktyka
+- ograniczyc tez trzeba ilosc banerow promocyjnych 
+- stopka ok
+- fajny pomysl na te promocyjne produkty z dodatkowa gwiazdka
+- fonty spoko poki nie sa szeryfowe
+
+Strona produktu:
+- tutaj nie mam za wiele do zarzucenia
+- jedynie ten pasek z krokami zakupu mi tutaj nie pasuje (zazwyczaj dopiero jest widoczny po rozpoczeciu procesu zakupu, czyli po wizycie w koszyku)
+
+Pytania:
+- Co z kolorystyka strony? dla mnie wydaje sie z byt szara polecam skorzystac z http://paletton.com/, mogla by pozostac w tych kolorach jakie ma pod warunkiem jakis dodatkowych elementow graficznych np produktow, modeli itd.

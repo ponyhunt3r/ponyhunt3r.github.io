@@ -1,0 +1,21 @@
+{"products":
+[
+	{
+		"id": 1,
+		"name": "Earring",
+		"price": 33,
+		"img": "img/earring.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Ring",
+			"price": 200,
+			"img" : "img/ring.jpg"
+			},
+		{
+			"id" : 3,
+			"name" : "Crown",
+			"price": 999,
+			"img": "img/crown.jpg"
+			}
+] }
