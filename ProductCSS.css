@@ -453,7 +453,7 @@ h4 {
     }
     ul li {
         list-style:none;
-        display: inline-block;
+        display: none;
         color: black;
     }
 
