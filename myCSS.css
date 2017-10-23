@@ -7,58 +7,14 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-
-
 }
-#searchSymbol {
-    width: 30px;
-}
-#searchSymbol:hover {
-    cursor: pointer; cursor: hand;
+html {
+  min-height: 100%;
 }
 
-.pagination ul>.active>a, .pagination ul>.active>span {
-    color: deeppink;
-    font-weight: 600;
+body {
+  height: 100%;
 }
-.ng-binding {
-    border-right: none;
-}
-#pagi {
-    width: 100%;
-    text-align: center;
-}
-.borderless {
-    border-right: none;
-}
-
-.pagenumber {
-    background-color: #dacfd6;
-    padding: 10px 10px 10px 10px;
-}
-
-#btn1, #btn2 {
-    z-index: 9999;
-    background-color: #46C9B6;
-    border: none;
-}
-
-#results {
-    margin-top: 40px;
-}
-
-input.gsc-search-button {
-
-    display: inline-block;
-    border-radius: 0px;
-    height: 35px;
-    width: 50px;
-}
-
-* {
-    box-sizing: border-box;
-}
-
 .last
 {
     border: none;
@@ -66,192 +22,41 @@ input.gsc-search-button {
 .first {
     border-right: 1px solid black;
 }
-#f
-{
-    height: 100px;
-    width: 20%;
-}
-
-
-.container-fluid a {
-    margin-bottom: 30px;
-}
-.container {
-    /*min-height:100%;*/
-    position: relative;
-    border-top: 1px solid#eee;
-    border-bottom: 1px solid  #d2d2d2;
-}
-
-.col-sm-6{
-    margin: 10px;
-    height: 40px;
-}
-.col-md-3 {
-    background-color: #fbfff0;
-    padding: 60px 10px 10px 10px;
-
-}
-img{
-    width: 80%;
-}
-
-#imgResult {
-    max-width: 80%;
-}
-.container .row {
-    margin-bottom: 30px;
-    display: inline-block;
-}
-
-.footer
-{
-    border-top: 1px solid rgba(0,0,0,0.25);
-    margin-top: 30px;
-    left:0;
-    position: fixed;
-    bottom:0;
-    width:100%;
-    height:70px;   /* Height of the footer */
-    background: #DACFD6;
-    float: right;
-    /*padding: 10px 10px;*/
-
-}
-
-.footer p {
-    color: #888888;
-    margin-left: 20px;
-    margin-top: 17px;
-    font-size: 12px;
-
-}
-.footer a {
-    float: right;
-    text-align: right;
-    margin-right: 30px;
-    margin-top: -30px;
-
-    color: #000;
-
-}
-.footer a:hover {
-    color: #17ffa5;;
-    text-decoration: none;
-    text-shadow: 0px 2px 2px #85f3ff;
-}
-
-#f {
-    width: 100%;
-}
-
-
-.container a {
-    color: #454745;
-}
-ol li {
-    display: inline-block;
-}
-
-a {
-    color: #454745;
-}
-.col-md-12 {
-    margin-top: 53px;
-    color: white;
-    height: 390px;
-    padding: 50px 60px 20px 60px;
-    text-align: right;
-    background: url("http://i.huffpost.com/gen/1703513/images/o-LOS-ANGELES-facebook.jpg" )no-repeat center center ;
-    background-size: 100% 160%;}
-
-.col-md-3 {
-    background: none;
+body{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .nav {
     margin-top: -44px;
     position: fixed;
     z-index: 9999;
+    color: #ccc;
 }
-/* This is the desktop version!
 
-
-**
-
-*
-
-**
-
-*/
-@media screen and (min-width: 1024px) {
-    ul li a {
-        margin-top: 40px;
-    }
-    .row a{
-        display: block;
-
-    }
-    .container-fluid a {
-
-        display: block;
-        margin-bottom: 10px;
-    }
-    .container
-    {
-        width: 100%;
-
-
-    }
-    #title {
-        color: white;
-        font-family: Helvetica;
-        margin-bottom: -50px;
-
-    }
-
-    h1 {
-        font-family: 'Source Sans Pro', sans-serif;
-        color: #fff;
-        margin-top: 250px;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 1.0);
-        font-size: 20px;
-        font-weight: 200;
-    }
-
-    h2 {
-
-        text-align: right;
-        margin-top: -20px;
-    }
-
-    ul {
+ul {
         list-style: none;
         display: inline-block;
-        background-color: #fff;
 
     }
 
-    ul li {
+ul li {
         display: inline-block;
         padding: 10px 10px;
         text-align: center;
+        color: #fff;}
 
-    }
-
-    ul li a {
+ul li a {
         text-transform: uppercase;
-        color: #000;
-        border-right: solid 1px black;
+        color: #fff;
+        border-right: solid 1px white;
         padding: 10px 50px 10px 10px;
         text-align: center;
-        text-decoration: none;
+        text-decoration: none; }
 
-    }
-
-    ul li a:hover {
+ul li a:hover {
         color: #46C9B6;
-        text-shadow: 0px 2px 2px #85f3ff;
         text-decoration: none;
     }
 
@@ -261,227 +66,71 @@ a {
         height: 60px;
         padding: 15px;
         text-align: center;
-    }
-
-    .nav {
-        margin-top: -52px;
         position: fixed;
         z-index: 9999;
     }
 
-    .navbar {
-        color: #cccccc;
-        background-color: #fff;
-        padding: 10px 10px;
-
-    }
-
-    .navbar .navbar-header .last {
-        border-left: 1px solid black;
-        margin-left: -14px;
-        margin-right: 40px;
-        padding: 0px 5px;
-    }
-
-    .basket {
-        width: 15%;
-        margin-right: -15px;
-    }
-
-    .search {
-        width: 15%;
-    }
-
-    .logo {
-        width: 15%;
-        margin-right: 40px;
-    }
-
-    .navbar-right {
-        color: #000;
-    }
-
-    .navbar-right a {
-        background-color: #fff
-    }
-
-    .navbar ul li a {
-        padding: 0px 0px 0px 0px;
-        background-color: inherit;
-        border: none;
-    }
-
-    .supporting {
-        text-align: right;
-        height: 300px;
-        background-color: #e3e3e3;
-    }
-
-    .pull-right {
-        text-align: right;
-        color: #cccccc;
-        margin-top: -40px;
-    }
-
-    .pull-right a {
-        color: #888888;
-    }
-
-    span {
-        color: #cccccc;
-    }
+.slideshow {
+  list-style: none;
+  z-index: 1;
 }
-/* This is the end of desktop version!
+.slideshow li span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 1;
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-animation: imageAnimation 1s linear infinite 0s;
+  -moz-animation: imageAnimation 1s linear infinite 0s;
+  animation: imageAnimation 16s linear infinite 0s;
+}
 
+.slideshow li:nth-child(1) span {
+  background-image: url(https://static.pexels.com/photos/313782/pexels-photo-313782.jpeg);
+}
 
-**
-
-*
-
-**
-
-*/
-
-
-@media screen and (max-width: 1023px) {
-
-    body {
-        font-family: Helvetica;
-        font-size: 16px;
-        color: #333;
-    }
-    ul {
-        list-style: none;
-        color: #000;
-    }
-    ul li {
-        width: 100%;
-        list-style:none;
-        display: none;
-        color: black;
-    }
-    #searchFor {
-        float: right;
-        display: none!important;
-        width: 100px !important;
-    }
-    #searchSymbol {
-        float: right;
-        display: none !important;
-    }
-    .form-control {
-        float: right !important;
-    }
-    .form-group {
-        display: width: 50% !important;
-    }
-    .form-inline{
-        display: inline;
-    }
-
-    .navbar {
-        padding: 20px 20px 20px 20px;
-    }
-
-    .basket {
-        float: left;
-        width: 5%;
-        margin-right:-60px;
-    }
-    .navbar .navbar-header ul li {
-        display: inline;
-    }
-    .navbar .navbar-header ul li a{
-        display: none;
-        color: #454745;
-        margin-right: -20px;
-    }
-    form {
-
-    }
-    .logo {
-        width: 80%;
-        text-align: right;
-        margin-right:-400px;
-
-    }
-
-    .pull-right {
-        text-align: left;
-        color: #cccccc;
-        margin-top: -40px;
-        width: 40%;
-
-    }
-
-    .pull-right a {
-        color: #888888;
-        text-align: left;
-      
-
-    }
-    .sign {
-      
-        margin-left: 20px;
-    }
-
-    .navbar .navbar-header ul li a {
-        color: #333;
-    }
-    .navbar .navbar-header ul li {
-
-        margin-top: 140px;
-
-    }
-
-    .nav ul li a {
-        color: #454745;
-        /*padding: 20px 20px 20px 20px;*/
-        /*margin: 20px 20px 20px 20px;*/
-        width: 70px;
-        display: none;
-    }
-
-
-    ul {
-        list-style: none;
-        display: block;
-
-
-    }
-
-    .nav ul {
-        background-color: #dacfd6;
-    }
-
-    ul li {
-       
-        padding: 0 0;
-        text-align: center;
-
-    }
-
-    ul li a {
-        text-transform: uppercase;
-        color: #000;
-        text-align: left;
-        text-decoration: none;
-
-    }
-    .supporting {
-        margin-bottom: 10px;
-    }
-    img {
-        width: 99%;
-        border: 3px solid #e5d8df;
-    }
-    .img-thumbnail {
-        border: 8px solid #e5d8df;
-        width: 100%;
-    }
-
-
-
+.slideshow li:nth-child(2) span {
+  background-image: url(https://static.pexels.com/photos/220769/pexels-photo-220769.jpeg);
+-webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 4s;
 
 }
+
+.slideshow li:nth-child(3) span {
+  background-image: url(http://167.114.226.27/w640/fbl-2017/201701/175191021/untrust.jpg);
+    -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 8s;
+
+}
+
+.slideshow li:nth-child(4) span {
+  background-image: url(https://static.pexels.com/photos/358382/pexels-photo-358382.jpeg);
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9;
+  animation-delay: 12s;
+}
+
+@keyframes imageAnimation {
+
+    98%{
+        left: 0;
+    }
+    100% {
+         z-index: 100;
+        left: -100%;
+    }
+
+}
+
+
 
