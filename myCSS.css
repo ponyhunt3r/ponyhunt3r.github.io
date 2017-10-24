@@ -55,10 +55,13 @@ ul li a {
         text-align: center;
         text-decoration: none; }
 
+
 ul li a:hover {
-        color: #46C9B6;
-        text-decoration: none;
+
+        text-decoration: line-through; 
+        color: #fff;
     }
+
 
     .nav {
 
@@ -88,9 +91,9 @@ ul li a:hover {
   z-index: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-animation: imageAnimation 1s linear infinite 0s;
-  -moz-animation: imageAnimation 1s linear infinite 0s;
-  animation: imageAnimation 16s linear infinite 0s;
+  -webkit-animation: slideLeft 1s linear infinite 0s;
+  -moz-animation: slideLeft 1s linear infinite 0s;
+  animation: slideLeft 16s linear infinite 0s;
 }
 
 .slideshow li:nth-child(1) span {
@@ -99,28 +102,28 @@ ul li a:hover {
 
 .slideshow li:nth-child(2) span {
   background-image: url(https://static.pexels.com/photos/220769/pexels-photo-220769.jpeg);
--webkit-animation-delay: 0.2s;
-  -moz-animation-delay: 0.2s;
+-webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
   animation-delay: 4s;
 
 }
 
 .slideshow li:nth-child(3) span {
   background-image: url(http://167.114.226.27/w640/fbl-2017/201701/175191021/untrust.jpg);
-    -webkit-animation-delay: 0.3s;
-  -moz-animation-delay: 0.3s;
+    -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
   animation-delay: 8s;
 
 }
 
 .slideshow li:nth-child(4) span {
   background-image: url(https://static.pexels.com/photos/358382/pexels-photo-358382.jpeg);
-  -webkit-animation-delay: 0.9s;
-  -moz-animation-delay: 0.9;
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12;
   animation-delay: 12s;
 }
 
-@keyframes imageAnimation {
+@keyframes slideLeft {
 
     98%{
         left: 0;
