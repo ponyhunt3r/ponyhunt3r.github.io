@@ -51,13 +51,14 @@ ul li {
         display: inline-block;
         padding: 10px 10px;
         text-align: center;
-        color: #ff6565
+        color: #fff;
         font-weight: 600;}
 
 ul li a {
         text-transform: uppercase;
-        color: #ff6565;
-        border-right: solid 1px #ff6565;
+        color: #fff;
+        font-weight: 100;
+        border-right: solid 1px #fff;
         padding: 10px 50px 10px 10px;
         text-align: center;
         text-decoration: none; }
@@ -104,7 +105,7 @@ ul li a:hover {
 }
 
 .slideshow li:nth-child(1) span {
-  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(255, 122, 122, 0.45) 59%, rgba(255, 122, 122, 0.65) 100%),url('./img/wall1.jpg');
+  background-image: -webkit-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(255, 122, 122, 0.45) 59%, rgba(255, 122, 122, 0.65) 100%),url('./img/wall1.jpg');
 }
 
 .slideshow li:nth-child(2) span {
@@ -116,7 +117,7 @@ ul li a:hover {
 }
 
 .slideshow li:nth-child(3) span {
-  background-image: url('./img/wall3.jpg');
+  background-image: -webkit-gradient(top, rgba(0, 0, 0, 0) 60%, rgba(255, 122, 122, 0.45) 59%, rgba(0, 0, 0, 0) 0%,url('./img/wall3.jpg');
     -webkit-animation-delay: 8s;
   -moz-animation-delay: 8s;
   animation-delay: 8s;
